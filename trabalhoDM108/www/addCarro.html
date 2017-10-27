@@ -1,0 +1,56 @@
+<!-- Top Navbar-->
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="left"><a href="#" class="back link"> 
+        <i class="icon icon-back"></i>
+        <span>Back</span></a></div>
+    </div>
+  </div>
+  <div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="addCarro" class="page">
+      <!-- Scrollable page content-->
+      <div class="page-content">
+        <div class="content-block-title">Carro</div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon"></i></div>
+                <div class="item-inner"> 
+                  <div class="item-input">
+                    <input type="text" name="marca" id="marca" value="{{url_query.marca}}" placeholder="Marca?"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="icon"></i></div>
+                <div class="item-inner"> 
+                  <div class="item-input">
+                    <input type="text" name="modelo" id="modelo" value="{{url_query.modelo}}" placeholder="Modelo?"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="item-content">
+                <div class="item-media"><i class="icon"></i></div>
+                <div class="item-inner"> 
+                  <div class="item-input">
+                    <input type="text" name="ano" id="ano" value="{{url_query.ano}}" placeholder="Ano?"/>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="buttons-row">
+            <a href="#" id="cancel" name="cancel" class="button button-fill color-orange">Cancel</a>
+            <a href="#" id="save" name="save" class="button button-fill color-purple">Save</a>
+            <input type="hidden" name="edit" id="edit" value="{{url_query.id}}">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>

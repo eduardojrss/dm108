@@ -1,0 +1,25 @@
+Plugins utilizados
+
+*cordova-plugin-statusbar
+*cordova-plugin-splashscreen
+*cordova-plugin-firebase
+*cordova-plugin-nativestorage
+
+Notificação
+
+Chave do servidor: AAAAiAf8rdI:APA91bGwI8VPq83G9aUxMCxjJAAh7zeT4xlhHBufAf3FIq4QXAMHyf4gpYwdZkwvlQ1oCuo0Q3LSgft-ijeStBjGugVPQTw_O86CCwK-aWaRrVGp1f38jPeOtwx7olKbSCc2mZv5JuOi
+Exemplo de mensagem para post:
+	{ 
+	"data": {
+	 "data1": "test1",
+	 "data2": "test2",
+	 "data3": "test3"
+	 },
+	 "priority":"high",
+	 "notification" : {
+	 "body" : "Body notification",
+	 "title" : "Hello Notification"
+	 },
+	 "to" : "/topics/carros"
+}
+
